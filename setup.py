@@ -8,25 +8,25 @@ requirements = [
 ]
 
 setuptools.setup(
-    name="NLIGraphSpacy",
-    version="0.4",
+    name="nligraphspacy",
+    version="0.5",
     author="Vishnu Nandakumar",
     author_email="nkumarvishnu25@gmail.com",
     description="Knowledge graph using Spacy NLP",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url = 'https://github.com/Vishnunkumar/NLIGraphSpacy/',
+    url = 'https://github.com/Vishnunkumar/nligraphspacy/',
     packages=[
-        'NLIGraphSpacy',
+        'nligraphspacy',
     ],
-    package_dir={'NLIGraphSpacy': 'nligraphspacy'},
+    package_dir={'nligraphspacy': 'nligraphspacy'},
     package_data={
-        'NLIGraphSpacy': ['nligraphspacy/*']
+        'nligraphspacy': ['nligraphspacy/*']
     },
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='nligraphspacy',
+    keywords='spacy nli keywords entities',
     classifiers=(
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
