@@ -9,7 +9,7 @@ requirements = [
 
 setuptools.setup(
     name="nligraphspacy",
-    version="0.7",
+    version="0.8",
     author="Vishnu Nandakumar",
     author_email="nkumarvishnu25@gmail.com",
     description="Knowledge graph using Spacy NLP",
