@@ -7,7 +7,7 @@ class RelationEntityExtract:
     
   def load_model(self):
     
-    nlp = spacy.load("kgmodel/")
+    nlp = spacy.load("/home/project/kgmodel/")
     return nlp
   
   def process_text(self):
