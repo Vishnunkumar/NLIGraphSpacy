@@ -1,4 +1,5 @@
 import spacy
+import en_nligraphspacy
 
 class RelationEntityExtract:
   def __init__(self, text):
@@ -7,7 +8,7 @@ class RelationEntityExtract:
     
   def load_model(self):
     
-    nlp = spacy.load("/home/project/kgmodel/")
+    nlp = spacy.load("en_nligraphspacy")
     return nlp
   
   def process_text(self):
