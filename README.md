@@ -13,4 +13,5 @@ pip install nligraphspacy
 from nligraphspacy import NLIGRAPH
 nligraph = NLIGRAPH.RelationEntityExtract("She worked in the city of London")
 nligraph.process_text()
+# ('She', 'worked', 'London')
 ```
