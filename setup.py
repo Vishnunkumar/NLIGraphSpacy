@@ -4,7 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 requirements = [
-  'spacy'
+    'spacy',
+    'en-nligraphspacy'
 ]
 
 setuptools.setup(
