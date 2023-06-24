@@ -27,7 +27,7 @@ class RelationEntityExtract:
       if tok.ent_type != '':
         json_dict = {}
         json_dict['text'] = tok.text
-        json_dict['label'] = tok.ent_type
+        json_dict['label'] = tok.ent_type_
 
         list_entities.append(json_dict)
 
