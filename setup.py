@@ -20,7 +20,7 @@ setuptools.setup(
     packages=[
         'nligraphspacy',
     ],
-    package_dir={'nligraphspacy': 'nligraphspacy/'},
+    package_dir={'nligraphspacy': 'nligraphspacy'},
     package_data={
         'nligraphspacy': ['nligraphspacy/*']
     },
